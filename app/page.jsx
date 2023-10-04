@@ -109,7 +109,7 @@ export default function Page() {
                 <div className="text-gray-700">{e.login}</div>
                 <div className="text-gray-700">{e.type}</div>
                 <button onClick={()=>{followersfollowershandler(e.login)}} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md"> 
-                Get Followers
+                Get Follower
               </button>
                </div>
             ))}
